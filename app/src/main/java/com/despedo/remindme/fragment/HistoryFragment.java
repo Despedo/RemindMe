@@ -27,7 +27,7 @@ public class HistoryFragment extends AbstractTabFragment {
         HistoryFragment fragment = new HistoryFragment();
         fragment.setArguments(args);
         fragment.setContext(context);
-        fragment.setTitle(context.getString(R.string.tab_item_birthdays));
+        fragment.setTitle(context.getString(R.string.tab_item_history));
 
         return fragment;
     }

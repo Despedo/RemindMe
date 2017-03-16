@@ -20,7 +20,7 @@ public class TodoFragment extends AbstractTabFragment {
         TodoFragment fragment = new TodoFragment();
         fragment.setArguments(args);
         fragment.setContext(context);
-        fragment.setTitle(context.getString(R.string.tab_item_birthdays));
+        fragment.setTitle(context.getString(R.string.tab_item_todo));
 
         return fragment;
     }
